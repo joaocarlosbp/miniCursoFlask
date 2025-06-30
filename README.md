@@ -1,7 +1,8 @@
 # miniCursoFlask
 Um pequeno projetinho para aprender umas funcionalidades de flask.
 
-#prints
-!1- [Formulario]--> (cadastros.jpg)
+#prints<br>
 
-!2- [cadastrosPage]-->(cadastros.jpg)
+!1- [Formulario]--> (cadastros.png)
+
+!2- [cadastrosPage]-->(cadastros.png)
