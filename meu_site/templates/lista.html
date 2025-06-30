@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Cadastros</title>
+</head>
+<body>
+     <input type="button" value="Inicio" onclick="window.location.href='/'">
+    <h2>Cadastros Realizados</h2>
+
+    {% if cadastros %}
+        <ul>
+        {% for item in cadastros %}
+            <li><strong>Nome:</strong> {{ item.nome }} | <strong>Email:</strong> {{ item.email }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nenhum cadastro encontrado.</p>
+    {% endif %}
+
+</body>
+</html>
